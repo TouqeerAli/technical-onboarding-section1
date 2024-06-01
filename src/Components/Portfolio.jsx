@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/desk.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "desk image";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Blog Application",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "This is a blog application made in Spring boot and React JS.",
+    url: "",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Expense Tracker",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "This is an expense tracker API made in spring boot that perfrom expense CRUD opeartions",
+    url: "",
   },
   {
     title: "My Resume Site",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "This is my Resume Site created using HTML, CSS , JS and Spring boot.",
+    url: "",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Contact Manager",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "This application perform CRUD operation for managing your contacts.",
+    url: "",
   },
 ];
 
